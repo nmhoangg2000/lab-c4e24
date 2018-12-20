@@ -28,6 +28,6 @@ for li in li_list:
         "song":song,
         "composer":chapteur 
     })
-    new_list.append(song)
+    new_list.append(songs)
 pyexcel.save_as(records= song_list , dest_file_name="itunes.xlsx")
 
