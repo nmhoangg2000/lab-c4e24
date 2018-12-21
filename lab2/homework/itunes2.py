@@ -35,4 +35,4 @@ for li in li_list:
         'max_downloads': 1
     }
     dl = YoutubeDL(options)
-    dl.download([song])
+    dl.download([song + chapteur])
